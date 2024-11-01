@@ -29,8 +29,6 @@ const Buttons = () => {
             <div className = "button-container">
                 <p>See More Experiences</p>
                 <Link className ="homepage-button" to='/Reddit'><button className="homepage-button">r/NationalParks</button></Link>
-
-
             </div>          
         </div>
     )
