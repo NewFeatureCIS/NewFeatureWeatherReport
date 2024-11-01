@@ -21,14 +21,13 @@ const Buttons = () => {
                 <p>Learn More About Parks</p> 
                 <Link className="homepage-button" to='/ParkSearch'><button className="homepage-button">Park Search</button></Link>                    
             </div> 
-
             <div className = "button-container">
                 <p>Plan A Trip To A National Park</p>
                 <Link className="homepage-button" to='/ParkPlan'><button className="homepage-button">Plan a Trip</button></Link>
             </div>
             <div className = "button-container">
                 <p>See More Experiences</p>
-                <Link className ="homepage-button" to='/Reddit'><button className="homepage-button">r/NationalParks</button></Link>
+                <Link className ="homepage-button" to="https://www.reddit.com/r/NationalPark/"><button className="homepage-button">r/NationalParks</button></Link>
             </div>          
         </div>
     )
